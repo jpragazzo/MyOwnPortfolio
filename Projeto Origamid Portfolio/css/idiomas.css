@@ -1,5 +1,5 @@
 .idiomas {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns:
@@ -38,7 +38,7 @@
     /* justify-content: space-between; */
     content: "";
     position: absolute;
-    margin-right: 350px;
+    margin-right: 280px;
     place-self: end end;
     width: 5px;
     height: 150px;

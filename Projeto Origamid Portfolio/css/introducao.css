@@ -74,4 +74,18 @@
 }
 
 @media (max-width: 550px) {
+    .introducao h1 {
+        font-size: 48px;
+    }
+
+    #introducao-texto  {
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #h1-1::before {
+        content: "";
+        display: none;
+    }
 }
