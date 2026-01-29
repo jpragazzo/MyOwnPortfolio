@@ -1,0 +1,86 @@
+.idiomas {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:
+        4fr
+        2fr
+        6fr;
+    margin-top: 160px;
+    gap: 40px;
+}
+
+.idiomas p {
+    font-family: "Poppins";
+}
+
+.idiomas img {
+    place-self: center center;
+}
+
+.idioma {
+    display: flex;
+    font-weight: 600;
+    max-height: 32px;
+    font-size: 24px;
+}
+
+.proficiencia {
+    display: grid;
+    font-weight: 600;
+    max-height: 32px;
+    font-size: 24px;
+    color: #7c7c7c;
+}
+
+.grid::after {
+    display: block;
+    /* justify-content: space-between; */
+    content: "";
+    position: absolute;
+    margin-right: 350px;
+    place-self: end end;
+    width: 5px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: #eaeaea;
+}
+
+.h3-2 {
+    align-self: center;
+    justify-self: end;
+    line-height: 0.8;
+}
+
+.grid {
+    display: grid;
+    gap: 24px;
+}
+
+.grid-idioma {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cinza {
+    color: #7c7c7c;
+}
+
+@media (max-width: 1100px) {
+    .idiomas {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    .grid::after {
+        margin-right: 300px;
+    }
+
+    .h3-2 {
+        justify-self: center;
+    }
+
+    #imagem-setas {
+        display: none;
+    }
+}
