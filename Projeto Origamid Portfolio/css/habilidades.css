@@ -47,3 +47,9 @@
     color: #0c3a0f;
     background-color: #afcc8c;
 }
+
+@media (max-width: 550px) {
+    .hard-skills {
+        gap: 0.5rem 0.75rem;
+    }
+}

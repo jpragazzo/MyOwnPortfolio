@@ -92,7 +92,7 @@ p {
     margin-top: 4rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .projetos,
     .habilidades {
         max-width: 700px;
@@ -116,12 +116,28 @@ p {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
+    p,
+    h3 {
+        font-size: 16px;
+    }
+
     .playfair-display {
         font-size: 36px;
     }
 
     .my-button-1 {
-        padding: 1rem 2.5rem;
+        padding: 1rem 2rem;
+    }
+
+    .my-button-2 {
+        margin-top: 1rem;
+    }
+
+    .skill-unica {
+        padding: 6px 12px;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 50px;
     }
 }
